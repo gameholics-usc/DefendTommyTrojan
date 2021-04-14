@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Homepage | Gameholics</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img class="logo-img" src="./public/USC-Games_CardOnWhite_Horiz.png" alt="">
+            <span class="logo-text">Gameholics</span>
+        </div>
+        <ul id="ul" class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gameplay">Gameplay</a></li>
+            <li><a href="#artwork">Artwork</a></li>
+            <li><a href="#demo">Demo</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#links">Links</a></li>
+        </ul>
+        <i class="bi bi-list hamburger" id="toggle-icon" onclick="toggleNavList()"></i>
+
+        <!-- <a href="#team"><button>Contact Us</button></a> -->
+    </nav>
+
+    <main>
+
+        <div id="contact-window" class="contact-window">
+            <span id="close-btn" class="close-btn">&times;</span>
+            <p id="contact-content" class="contact-content">gameholics.usc@gmail.com</p>
+        </div>
+
+        <section id="home">
+            <div class="home">
+                <div class="heading-container">
+                    <div>
+                        <div class="heading">defend</div>
+                        <div class="heading">tommy trojan</div>
+                    </div>
+                    <p class="p2">The next generation tower defense game.The next generation tower defense game.</p>
+                    <button id="contact-btn">Contact Us</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="gameplay">
+            <div class="gameplay">
+                <div class="title">about our game</div>
+                <div class="box-container">
+                    <div class="box" style="background-image: url(./public/map1.png)"></div>
+                    <div class="box" style="background-image: url(./public/map2.png)"></div>
+                    <div class="box" style="background-image: url(./public/map3.png)"></div>
+                    <div class="box" style="background-image: url(./public/map4.png)"></div>
+                    <div class="box" style="background-image: url(./public/map5.png)"></div>
+                </div>
+                <div class="content-container">
+                    <p class="p1">Engineering</p>
+                    <p class="p2">Use Unity 2D to develop the game scenes. Use C# to implement the networking and game
+                        infrastructure. Use Photoshop to draw characters / build models. The game will be released on
+                        both iOS and Android platforms.</p>
+                    <p class="p1">Key Features</p>
+                    <p class="p2">Defend Tommy the Trojan, avoid attacking by different monsters With level up, the
+                        vitality and armor of enemies will upgrade. Also, the wave numbers of monsters will increase.
+                        With the game progress, the battlefields can be different
+                        areas of USC school The game shop can provide different towers to help defend Trojan. Players
+                        can use coins to build towers to deal with specific enemies. Coins can be gained at the end of
+                        each stage.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="artwork">
+            <div class="artwork">
+                <div class="title">Self-designed Artwork</div>
+
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide"><img src="./public/art1.png"></div>
+                        <div class="swiper-slide"><img src="./public/art5.png"></div>
+
+                        <div class="swiper-slide"><img src="./public/art2.png"></div>
+                        <div class="swiper-slide"><img src="./public/art6.png"></div>
+
+                        <div class="swiper-slide"><img src="./public/art3.png"></div>
+                        <div class="swiper-slide"><img src="./public/art7.png"></div>
+
+                        <div class="swiper-slide"><img src="./public/art8.png"></div>
+                        <div class="swiper-slide"><img src="./public/art9.png"></div>
+                        <div class="swiper-slide"><img src="./public/art10.png"></div>
+                        <div class="swiper-slide"><img src="./public/art11.png"></div>
+                        <div class="swiper-slide"><img src="./public/art12.png"></div>
+
+                        <div class="swiper-slide"><img src="./public/art0.png"></div>
+                        <div class="swiper-slide"><img src="./public/art4.png"></div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+
+                <div class="artwork-container">
+                    <p class="p1">Engineering</p>
+                    <p class="p2">Use Unity 2D to develop the game scenes. Use C# to implement the networking and game
+                        infrastructure. Use Photoshop to draw characters / build models. The game will be released on
+                        both iOS and Android platforms.</p>
+                    <p class="p1">Key Features</p>
+                    <p class="p2">Defend Tommy the Trojan, avoid attacking by different monsters With level up, the
+                        vitality and armor of enemies will upgrade. Also, the wave numbers of monsters will increase.
+                        With the game progress, the battlefields can be different
+                        areas of USC school The game shop can provide different towers to help defend Trojan. Players
+                        can use coins to build towers to deal with specific enemies. Coins can be gained at the end of
+                        each stage.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="demo">
+            <div class="demo">
+                <div class="title">Game Demo</div>
+                <div class="video-container">
+                    <iframe class="video" src="https://www.youtube.com/embed/nkgGyO9VG54"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="team">
+
+            <div class="team">
+                <div class="title">Team Members</div>
+
+                <div class="card-container">
+                    <div class="card">
+                        <div class="avatar">
+                            <img src="./public/Cheng.jpg" alt="">
+                        </div>
+                        <div class="intro">
+                            <div class="name">Cheng Zhou</div>
+                            <div class="content">Game Programmer. Worked on lottery shop, tower select logics,
+                                switching
+                                scenes and GUI.
+                                Integrated shop with the game and debugging.
+                            </div>
+                        </div>
+                        <div class="more">
+                            <a href="https://www.linkedin.com/in/cheng-zhou-b1065b1a0/"><i
+                                    class="bi bi-linkedin"></i></a>
+                            <a href="https://github.com/SeleneMiyazono"><i class="bi bi-github"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="avatar">
+                            <img src="./public/Donghao.jpg" alt="">
+                        </div>
+                        <div class="intro">
+                            <div class="name">Donghao Feng</div>
+                            <div class="content">Game Programmer. Animator. Created animation for enemies and towers.
+                                Worked on enemy, tower and bullet features, GUI and debugging.</div>
+                        </div>
+                        <div class="more">
+                            <a href="https://www.linkedin.com/in/donghao-feng-95a74096/"><i
+                                    class="bi bi-linkedin"></i></a>
+                            <a href="https://github.com/donghaof"><i class="bi bi-github"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="avatar">
+                            <img src="./public/Ruicheng.jpg" alt="">
+                        </div>
+                        <div class="intro">
+                            <div class="name">Ruicheng Li</div>
+                            <div class="content">Game Producer. <br /> Team Leader. Worked on game high-level design and
+                                game
+                                balancing, team management and weekly presentions.</div>
+                        </div>
+                        <div class="more">
+                            <a href="https://www.linkedin.com/in/ruicheng-li/"><i class="bi bi-linkedin"></i></a>
+                            <a href="https://github.com/rc-li"><i class="bi bi-github"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="avatar">
+                            <img src="./public/Ruoxuan.jpg" alt="">
+                        </div>
+                        <div class="intro">
+                            <div class="name">Ruoxuan Wang</div>
+                            <div class="content">Game Programmer. Worked on tower features, game status, enemy wave and
+                                path, game menus, switching scenes, level maps, GUI and debugging.
+                            </div>
+                        </div>
+                        <div class="more">
+                            <a href="https://www.linkedin.com/in/ruoxuan-wang-311917a1/"><i
+                                    class="bi bi-linkedin"></i></a>
+                            <a href="https://github.com/penguindoggy"><i class="bi bi-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-container">
+                    <div class="card">
+                        <div class="avatar">
+                            <img src="./public/Sheng.jpg" alt="">
+                        </div>
+                        <div class="intro">
+                            <div class="name">Sheng Luo</div>
+                            <div class="content">Game Programmer. Worked on tower placement feature, main menu features
+                                and GUI, sound effect, volume adjustment, Credits and debugging.</div>
+                        </div>
+                        <div class="more">
+                            <a href="https://www.linkedin.com/in/sheng-luo-7b4b3897/"><i class="bi bi-linkedin"></i></a>
+                            <a href="https://github.com/legendsheng"><i class="bi bi-github"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="avatar">
+                            <img src="./public/Shuqi.jpg" alt="">
+                        </div>
+                        <div class="intro">
+                            <div class="name">Shuqi Xiao</div>
+                            <div class="content">Game Programmer. Worked on tower placement feature, tower and enemy
+                                character
+                                features, level maps, sound effect and menu GUI.</div>
+                        </div>
+                        <div class="more">
+                            <a href="https://www.linkedin.com/in/shuqi-xiao-8b825119a/"><i
+                                    class="bi bi-linkedin"></i></a>
+                            <a href="https://github.com/xiaoshq"><i class="bi bi-github"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="avatar">
+                            <img src="./public/Xinrui.jpg" alt="">
+                        </div>
+                        <div class="intro">
+                            <div class="name">Xinrui Lyu</div>
+                            <div class="content">Game Artist. <br /> Designed and created 2D images of game characters.
+                                Also
+                                worked on cutscene animation and tower upgrade feature.</div>
+                        </div>
+                        <div class="more">
+                            <a href=""><i class="bi bi-linkedin"></i></a>
+                            <a href="https://github.com/SherryLxr"><i class="bi bi-github"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="avatar">
+                            <img src="./public/Yaqi.jpg" alt="">
+                        </div>
+                        <div class="intro">
+                            <div class="name">Yaqi Han</div>
+                            <div class="content">Audio Engineer. <br /> Worked on background music, sound effect,
+                                cutscene
+                                animation and tower upgrade feature. Also assisted in the artwork.</div>
+                        </div>
+                        <div class="more">
+                            <a href="https://www.linkedin.com/in/yaqihan/"><i class="bi bi-linkedin"></i></a>
+                            <a href="https://github.com/YaqiHan"><i class="bi bi-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="links">
+            <div class="links">
+                <div class="title"><a
+                        href="https://docs.google.com/document/d/1q0d_8aK84maX2DTja6rHlT0HDWWLpI92ilrB6bIGWDo/edit?usp=sharing">Game
+                        Design Document</a></div>
+                <div class="title"><a href="https://github.com/rc-li/GameHolics">Github Repository</a></div>
+            </div>
+            <div class="footer">
+                Licensed by Gameholics & USC Games 2021<a href="https://github.com/rc-li/GameHolics"><i
+                        class="bi bi-github"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
