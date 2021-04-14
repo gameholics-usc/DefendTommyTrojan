@@ -323,7 +323,7 @@ Section Team
     max-width: 15rem;
     height: fit-content;
     margin: 0 1.5rem;
-    padding: 1.3rem;
+    padding: 1.2rem;
     border-radius: 2rem;
     box-shadow: rgba(255, 255, 255, 0.3) 0px 5px 15px 0px;
 }
@@ -612,6 +612,7 @@ Responsive
     }
 
     .footer {
+        font-size: 0.9rem;
         height: 3rem;
     }
     
