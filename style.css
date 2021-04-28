@@ -435,8 +435,8 @@ contact us window
     transition: 0.5s ease-out;
     border-radius: 0 0.5rem 0.5rem 0;
     display: block; 
-    position: absolute;
-    z-index: 2;
+    position: fixed;
+    z-index: 1;
     left: 0;
     top: 4rem;
     /* margin-left: -10rem;
